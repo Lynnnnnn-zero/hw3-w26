@@ -69,8 +69,11 @@ nav a:focus{
      .security,
      .loans,
      .contact{
-     grid-column: 2 / span 3;
+          grid-column: 2 / span 3;
+          place-self: center;
      }
+
+
 
      .accounts{ grid-row: 2; }
      .onlinebanking{ grid-row: 3; }
